@@ -1,0 +1,7 @@
+SCREENSHOT INSTRUCTIONS
+1. Open index.html in Chrome.
+2. Press Windows + Shift + S.
+3. Save the top section as screenshot-1-home.png.
+4. Save Customer Favourites as screenshot-2-menu.png.
+5. Save About and Contact as screenshot-3-about-contact.png.
+6. Put actual screenshots in this folder if required.
