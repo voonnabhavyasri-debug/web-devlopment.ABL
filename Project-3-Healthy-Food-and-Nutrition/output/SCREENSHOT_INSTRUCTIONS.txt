@@ -1,0 +1,7 @@
+SCREENSHOT INSTRUCTIONS
+1. Open index.html in Chrome.
+2. Press Windows + Shift + S.
+3. Save the top section as screenshot-1-home.png.
+4. Save Benefits and Food Ideas as screenshot-2-food-ideas.png.
+5. Save Healthy Habits as screenshot-3-habits.png.
+6. Put actual screenshots in this folder if required.
