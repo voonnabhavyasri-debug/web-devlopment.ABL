@@ -1,40 +1,24 @@
-# Project 1: Personal Portfolio Website
+# Web Development Fundamentals
 
-## Aim
-To design and develop a responsive personal portfolio webpage using HTML and CSS.
-
-## Objectives
-- Display a personal introduction and profile.
-- Present education, technical skills, hobbies, projects, achievements, and contact information.
-- Practise navigation links, cards, CSS transitions, animations, and responsive layouts.
-
-## Tools Required
-- Computer or laptop
-- Text editor (Notepad or Visual Studio Code)
-- Web browser (Chrome or Microsoft Edge)
-
-## Technologies Used
-- HTML5 for webpage structure
-- CSS3 for layout, colors, responsive styling, and animation
+A beginner-friendly HTML and CSS project based on the supplied Subject 3: Web Development syllabus (Units I–III).
 
 ## Files
-- `index.html` — webpage content
-- `style.css` — webpage design
-- `test_cases.txt` — test scenarios and expected results
-- `output/` — screenshots captured after running the website
+- `index.html` — webpage structure, navigation, links, lists, image, and semantic HTML.
+- `style.css` — colors, fonts, backgrounds, spacing, borders, box model, grid, and responsive design.
+- `test_cases.txt` — manual checks for the webpage.
+- `output/SCREENSHOT_INSTRUCTIONS.txt` — instructions for capturing screenshots.
 
-## Procedure
-1. Keep `index.html` and `style.css` in the same folder.
-2. Open `index.html` in a browser.
-3. Test navigation links and resize the browser to check the responsive layout.
-4. Replace placeholders such as Your Name, college, course, email, and sample achievements.
-5. Capture actual browser screenshots and save them in the `output` folder.
+## How to run
+1. Download or clone this repository.
+2. Open the `Project-1-Personal-Portfolio` folder.
+3. Double-click `index.html` to open it in a browser.
+4. Keep `index.html` and `style.css` in the same folder.
+5. Resize the browser to check the responsive layout.
+6. An internet connection is needed for the sample online image.
 
-## Expected Result
-A responsive portfolio with Home, About, Education, Technical Skills, Projects, Achievements, and Contact sections.
+## Syllabus topics demonstrated
+- **Unit I:** HTML structure, elements, class attributes, hyperlinks, CSS syntax, text alignment, text color, and background color.
+- **Unit II:** font properties, text decoration, backgrounds, borders, padding, margin, box model, lists, UI design, accessibility, and mobile-first layout.
+- **Unit III:** HTML5 semantic elements, navigation within the same document, images, horizontal rules, and HTML5 page structure.
 
-## Conclusion
-The portfolio webpage was created using HTML and CSS. This activity practises webpage structure, navigation, styling, animations, and responsive design.
-
-## Note
-This is a front-end demonstration. It does not store data or send messages to a server.
+The contact email and content are examples. Replace them with your own details if your assignment requires it.
