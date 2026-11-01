@@ -77,13 +77,13 @@ header {
 }
 
 .nav ul {
-  list-style: none;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 10px 22px;
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 
 .nav li a {
