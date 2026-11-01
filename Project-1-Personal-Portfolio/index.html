@@ -3,48 +3,136 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Personal Portfolio</title>
+  <title>Web Development Fundamentals</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="header">
-    <nav class="nav container" aria-label="Main navigation">
-      <a class="logo" href="#home">MyPortfolio</a>
-      <ul>
-        <li><a href="#about">About</a></li><li><a href="#education">Education</a></li>
-        <li><a href="#skills">Skills</a></li><li><a href="#projects">Projects</a></li>
+  <header class="site-header" id="home">
+    <nav class="navbar" aria-label="Main navigation">
+      <a class="logo" href="#home">WebBasics</a>
+      <ul class="nav-links">
+        <li><a href="#html">HTML</a></li>
+        <li><a href="#css">CSS</a></li>
+        <li><a href="#design">Design</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
+
   <main>
-    <section class="hero" id="home"><div class="container hero-grid">
-      <div><p class="eyebrow">WELCOME TO MY PORTFOLIO</p><h1>Hi, I'm <span>Your Name</span></h1>
-        <h2>Aspiring Web Developer</h2><p class="muted">I am a student who enjoys learning technology, building creative projects, and improving my skills.</p>
-        <a class="button" href="#contact">Contact Me</a>
+    <section class="hero">
+      <p class="eyebrow">SUBJECT 3 · WEB DEVELOPMENT</p>
+      <h1>Learn the Basics of <span>Web Development</span></h1>
+      <p>HTML gives a webpage its structure, while CSS makes it attractive, readable, and responsive.</p>
+      <a class="button" href="#html">Explore Topics</a>
+    </section>
+
+    <section class="section" id="html">
+      <p class="eyebrow">UNIT I</p>
+      <h2>HTML Fundamentals</h2>
+      <p>HTML stands for HyperText Markup Language. It uses elements and tags to organize webpage content.</p>
+      <div class="cards">
+        <article class="card">
+          <h3>HTML Elements</h3>
+          <p>Headings, paragraphs, links, images, and lists are common HTML elements.</p>
+          <a href="#examples">See examples</a>
+        </article>
+        <article class="card">
+          <h3>Hyperlinks</h3>
+          <p>Links help users navigate to another section or webpage.</p>
+          <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noopener noreferrer">Learn HTML</a>
+        </article>
+        <article class="card">
+          <h3>Semantic HTML</h3>
+          <p>Header, nav, main, section, article, and footer describe the purpose of content.</p>
+          <a href="#design">View page structure</a>
+        </article>
       </div>
-      <div class="profile"><div class="avatar">YN</div><h3>Your Name</h3><p>Student · Learner · Creator</p></div>
-    </div></section>
-    <section class="section container" id="about"><p class="eyebrow">GET TO KNOW ME</p><h2>About Me</h2>
-      <div class="panel"><p>I am a motivated student interested in web development and technology. I enjoy learning through practice and creating websites that are simple, attractive, and easy to use.</p><p><b>Hobbies:</b> Listening to music, designing, learning new skills, and exploring technology.</p></div>
     </section>
-    <section class="section soft" id="education"><div class="container"><p class="eyebrow">MY LEARNING JOURNEY</p><h2>Education</h2>
-      <div class="cards two"><article class="panel"><span class="number">01</span><h3>Undergraduate Studies</h3><p><b>College:</b> Your College Name</p><p><b>Course:</b> Your Course Name</p><p><b>Year:</b> First Year</p></article>
-      <article class="panel"><span class="number">02</span><h3>Intermediate / 12th Grade</h3><p><b>College:</b> Your Previous College</p><p><b>Stream:</b> MPC / Your Stream</p><p><b>Year:</b> Your Passing Year</p></article></div>
-    </div></section>
-    <section class="section container" id="skills"><p class="eyebrow">WHAT I AM LEARNING</p><h2>Technical Skills</h2>
-      <div class="skills"><div><b>HTML</b><div class="track"><span style="width:80%"></span></div></div><div><b>CSS</b><div class="track"><span style="width:65%"></span></div></div>
-      <div><b>Python Basics</b><div class="track"><span style="width:55%"></span></div></div><div><b>Problem Solving</b><div class="track"><span style="width:70%"></span></div></div></div>
-      <p class="note">Skill bars are illustrative. Update them to match your current skills.</p>
+
+    <hr class="divider">
+
+    <section class="section" id="examples">
+      <p class="eyebrow">HTML ELEMENTS AND LISTS</p>
+      <h2>Lists and Images</h2>
+      <div class="example-grid">
+        <div class="example-panel">
+          <h3>Unordered list</h3>
+          <ul>
+            <li>HTML structure</li>
+            <li>CSS styling</li>
+            <li>Responsive design</li>
+          </ul>
+          <h3>Ordered list</h3>
+          <ol>
+            <li>Plan the page</li>
+            <li>Write HTML</li>
+            <li>Add CSS</li>
+          </ol>
+        </div>
+        <div class="example-panel">
+          <h3>Image element</h3>
+          <img class="sample-image" src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=900&q=80" alt="Laptop and workspace used for web development">
+          <p class="caption">This image has descriptive alternative text.</p>
+        </div>
+      </div>
     </section>
-    <section class="section soft" id="projects"><div class="container"><p class="eyebrow">WHAT I HAVE PRACTISED</p><h2>My Projects</h2>
-      <div class="cards three"><article class="panel project"><span class="number">01</span><h3>Personal Portfolio</h3><p>A website introducing my education, skills, hobbies, and contact details.</p><span class="tag">HTML &amp; CSS</span></article>
-      <article class="panel project"><span class="number">02</span><h3>Python Mini Project</h3><p>A beginner program created to practise basic programming and problem-solving.</p><span class="tag">Python</span></article>
-      <article class="panel project"><span class="number">03</span><h3>Learning Project</h3><p>A practice project that helps me explore new tools and improve my skills.</p><span class="tag">Practice</span></article></div>
-    </div></section>
-    <section class="section container" id="achievements"><p class="eyebrow">PROGRESS AND MILESTONES</p><h2>Achievements</h2><div class="panel"><ul class="list"><li>Practised introductory programming and web development.</li><li>Created a portfolio as part of a learning activity.</li><li>Continuously developing communication and technical skills.</li></ul><p class="note">Replace these examples with your own achievements.</p></div></section>
-    <section class="section soft" id="contact"><div class="container"><p class="eyebrow">LET'S CONNECT</p><h2>Contact Me</h2><div class="panel"><p>For project or learning enquiries, use the contact details below.</p><p><b>Email:</b> <a href="mailto:your.email@example.com">your.email@example.com</a></p><p><b>Location:</b> Your City, India</p><p class="note">Replace sample details with information you are comfortable sharing.</p></div></div></section>
+
+    <section class="section color-section" id="css">
+      <p class="eyebrow">UNIT II</p>
+      <h2>CSS Fundamentals</h2>
+      <p>CSS controls text, colors, spacing, borders, backgrounds, and page layout.</p>
+      <div class="cards">
+        <article class="card">
+          <h3>Typography</h3>
+          <p class="large-text">Readable text matters.</p>
+          <p>Font family, font size, font style, and text decoration change how text looks.</p>
+        </article>
+        <article class="card">
+          <h3>Colors and backgrounds</h3>
+          <p class="color-demo">This panel uses a hexadecimal color.</p>
+          <p>CSS can set text color, background color, and background images.</p>
+        </article>
+        <article class="card">
+          <h3>Box model</h3>
+          <div class="box-model-demo">Content + padding + border + margin</div>
+          <p>Each element has content, padding, border, and margin.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="design">
+      <p class="eyebrow">USER INTERFACE DESIGN</p>
+      <h2>Design for Everyone</h2>
+      <div class="design-layout">
+        <div>
+          <h3>Good design principles</h3>
+          <ul>
+            <li>Use clear headings and readable fonts.</li>
+            <li>Keep enough spacing between sections.</li>
+            <li>Choose colors with good contrast.</li>
+            <li>Make navigation easy to understand.</li>
+            <li>Make the layout work on mobile screens.</li>
+          </ul>
+        </div>
+        <aside class="tip">
+          <h3>Accessibility tip</h3>
+          <p>Add descriptive alternative text to meaningful images and use clear link text.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <p class="eyebrow">GET IN TOUCH</p>
+      <h2>Contact</h2>
+      <p>This sample section demonstrates a link that opens an email application.</p>
+      <a class="button button-light" href="mailto:student@example.com">Send an Email</a>
+    </section>
   </main>
-  <footer><div class="container footer"><p>© 2026 Your Name · Web Development ABL</p><a href="#home">Back to top ↑</a></div></footer>
+
+  <footer class="site-footer">
+    <p>© 2026 WebBasics · Created for Web Development practice</p>
+    <a href="#home">Back to top ↑</a>
+  </footer>
 </body>
 </html>
