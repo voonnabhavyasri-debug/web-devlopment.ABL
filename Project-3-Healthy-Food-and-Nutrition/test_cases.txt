@@ -1,0 +1,11 @@
+PROJECT 3 — MANUAL TEST CASES
+TC1: Open index.html. Expected: FreshPlate homepage appears.
+TC2: Click Benefits. Expected: Balanced plate section appears.
+TC3: Check benefit tiles. Expected: Three tiles show food groups and descriptions.
+TC4: Click Food Ideas. Expected: Three food idea cards appear.
+TC5: Check images. Expected: Each meaningful image has descriptive alt text.
+TC6: Click Healthy Habits. Expected: Habit list and reminder card appear.
+TC7: Click Send Feedback. Expected: email application opens with sample address.
+TC8: Resize to mobile width. Expected: content fits and cards stack vertically.
+TC9: Resize to desktop width. Expected: three food cards appear in columns.
+TC10: Click Back to top. Expected: page returns to top.
