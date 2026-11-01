@@ -1,0 +1,11 @@
+PROJECT 2 — MANUAL TEST CASES
+TC1: Open index.html. Expected: Sweet Crumbs homepage appears.
+TC2: Click Our Menu. Expected: Customer Favourites section appears.
+TC3: Check product cards. Expected: Each has image, title, description and sample price.
+TC4: Click About. Expected: Our Story section appears.
+TC5: Click Contact. Expected: Contact section appears.
+TC6: Click Email the Bakery. Expected: email application opens with sample address.
+TC7: Resize to mobile width. Expected: cards stack and content fits.
+TC8: Resize to desktop width. Expected: product cards appear in three columns.
+TC9: Press Tab. Expected: focused links have a visible outline.
+TC10: Click Back to top. Expected: page returns to top.
